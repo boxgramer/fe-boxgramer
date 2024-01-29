@@ -10,7 +10,7 @@ type header = {
 };
 export default function Header(data: header) {
   return (
-    <header className="py-7 px-5 absolute flex justify-between">
+    <header className="py-4 px-5 absolute flex justify-between z-10 ">
       <nav className="h-10 flex flex-col justify-center ">
         <ul className="flex  gap-5 ">
           {data.menus.map((m: menu) => (
@@ -18,7 +18,7 @@ export default function Header(data: header) {
               <Link
                 href={m.target}
                 className={
-                  "py-2  hover:border-b-4 hover:border-b-primary hover:text-primary  " +
+                  "py-2  hover:border-b-4 hover:border-b-primary hover:text-primary text-24px  font-bold " +
                   (m.active
                     ? "border-b-primary border-b-4 text-primary"
                     : " text-secondary")
