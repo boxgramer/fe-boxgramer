@@ -4,7 +4,7 @@ export default function About(): ReactNode {
   return (
     <div className="flex justify-center items-center  px-64  bg-about h-screen bg-no-repeat bg-cover     bg-top-left  after:-z-0   after:absolute after:w-screen after:bottom-0 after:bg-third after:shadow-color-third">
       <div className="z-10 flex flex-col items-center justify-center gap-5">
-        <h1 className="uppercase text-primary text-32px font-extrabold text-center mb-3">
+        <h1 className="uppercase text-primary text-64px font-extrabold text-center mb-3">
           Boxgramer
         </h1>
         <p className="text-secondary text-24px font-bold  text-center leading-10 mb-5 mx-52 ">
