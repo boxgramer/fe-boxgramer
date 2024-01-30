@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import { Facebook, Github, Instagram, Whatsapp } from "@/components/Icon";
 import { SocialAbsoulte, WhatsappAbsolute } from "@/components/Socials";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   const menus = [
@@ -55,6 +56,7 @@ export default function Home() {
         icon={message.icon}
       />
       <About />
+      <Experience />
     </main>
   );
 }

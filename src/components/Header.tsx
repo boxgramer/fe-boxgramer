@@ -10,7 +10,7 @@ type header = {
 };
 export default function Header(data: header) {
   return (
-    <header className="py-4 px-5 absolute flex justify-between z-10 ">
+    <header className="py-4 px-5 fixed flex justify-between z-10 ">
       <nav className="h-10 flex flex-col justify-center ">
         <ul className="flex  gap-5 ">
           {data.menus.map((m: menu) => (
