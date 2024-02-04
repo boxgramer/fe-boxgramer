@@ -21,7 +21,9 @@ const config: Config = {
       },
 
       boxShadow: {
-        'color-third': '0px -142px 250px 340px #526D82;',
+        'color-third': '0px -200px 300px 300px   #526D82;',
+        'style-1': '0px 0px 50px 50px   #526D82;',
+
       },
       colors: {
         "primary": "#DDE6ED",

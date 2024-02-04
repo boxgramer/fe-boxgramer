@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 export default function About(): ReactNode {
   return (
-    <div className="flex justify-center items-center  px-64  bg-about h-screen bg-no-repeat bg-cover     bg-top-left  after:-z-0   after:absolute after:w-screen after:bottom-0 after:bg-third after:shadow-color-third">
+    <div className="flex justify-center items-center  px-64  bg-about h-screen bg-no-repeat bg-cover     bg-top-left   ">
       <div className="z-10 flex flex-col items-center justify-center gap-7">
         <h1 className="uppercase text-primary text-64px font-extrabold text-center mb-3">
           Boxgramer
